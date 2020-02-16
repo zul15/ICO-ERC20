@@ -324,7 +324,7 @@ contract CrowdsaleToken is StandardToken, Configurable, Ownable {
  * @title Sekem Klean SemualToken 
  * @dev Contract to create the Sekem Token
  **/
-contract LavevelToken is CrowdsaleToken {
+contract sekemkleansemuaToken is CrowdsaleToken {
     string public constant name = "Sekem Klean Semua";
     string public constant symbol = "SKS";
     uint32 public constant decimals = 18;
