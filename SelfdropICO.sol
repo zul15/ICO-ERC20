@@ -226,11 +226,11 @@ contract StandardToken is ERC20, BasicToken {
  * @dev Configurable varriables of the contract
  **/
 contract Configurable {
-    uint256 public constant cap = 21000*10**18;
-    uint256 public constant basePrice = 10*10**18; // tokens per 1 ether
+    uint256 public constant cap = 11000000000000000000000;
+    uint256 public constant basePrice = 10000000000000000000; // tokens per 1 ether
     uint256 public tokensSold = 0;
     
-    uint256 public constant tokenReserve = 10*10**18;
+    uint256 public constant tokenReserve = 10000000000000000000;
     uint256 public remainingTokens = 0;
 }
 /**
@@ -321,8 +321,8 @@ contract CrowdsaleToken is StandardToken, Configurable, Ownable {
     
 }
 /**
- * @title Sekem Klean SemualToken 
- * @dev Contract to create the Sekem Token
+ * @title UnicornsToken 
+ * @dev Contract to create the Unicorns Token
  **/
 contract sekemkleansemuaToken is CrowdsaleToken {
     string public constant name = "Unicorns";
